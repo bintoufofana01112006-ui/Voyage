@@ -1,0 +1,282 @@
+.container{
+    display: grid;
+    grid-template-areas: "section header "
+                         "section main"
+                         "footer footer";
+    gap: 10px;  
+    background-image: url(https://images.pexels.com/photos/2823154/pexels-photo-2823154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    padding: 10px;
+    grid-template-columns: 0.15fr 1fr;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: 50px 460px 50px;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 27, 0);
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    gap: 20px;
+}
+.header{
+    grid-area: header;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    margin-left: -8px;
+}
+.main{
+    grid-area: main;
+    background-image:url(https://images.pexels.com/photos/2823154/pexels-photo-2823154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+    display: flex;
+    color: aliceblue;
+    font-weight: bolder;
+    font-family: serif;
+    box-shadow: 0px 0px 30px 30px rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    margin-left:70px ;
+    margin-right: 70px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 50px;
+}
+.section{
+    grid-area: section;
+    background-color: transparent;
+    transition: all 0.7s;
+}
+.footer{
+    grid-area: footer; 
+    background-color: rgba(0, 0, 0, 0.6);
+}
+h1{
+    background: radial-gradient( circle, white, black); 
+   -webkit-background-clip: text; 
+   -webkit-text-fill-color: transparent;
+   font-size: 140px;
+}
+section{
+    margin: 0;
+    text-align: center;
+    gap: 30px;
+}
+li{
+   margin-top: 50px;
+   gap: 20px;
+   transform: scale(1.0);
+   transition: all 0.5s;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: serif;
+}
+section:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+li:hover{
+    text-decoration: underline white;
+    height: 30px;
+}
+ marquee{
+  box-shadow: 0px 0px 10px 5px rgb(255, 255, 255);
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 900;
+  color: white;
+  margin-top: 10px;
+ }
+ .cards .item1{
+    background-image: url(medias/b0e5a4031ba6ffb1fa0ac1745c989c8e.jpg);
+    background-size: cover;
+    opacity:0.8 ;
+    width: 150px;
+    border-radius: 20px;
+    height: 280px;
+    flex: 0 0 40%;
+    scroll-snap-align: center;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    color: black;
+      
+}
+.item1:hover{
+    transform: scale(1.08);
+    transition: all 0.9s;
+     scroll-behavior: smooth;
+     box-shadow: 0px 8px 2px 0px black;
+}
+.cards .item2{
+    background-image: url(medias/e530f253aef769027ef1f3dbbaed9769.jpg);
+    background-size: cover;
+    opacity:0.8 ;
+    width: 50px;
+    border-radius: 20px;
+    height: 280px;
+    flex: 0 0 40%;
+    scroll-snap-align:start;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    color: black;
+    
+}
+.item2:hover{
+    transform: scale(1.08);
+    transition: all 0.9s;
+     scroll-behavior: smooth;
+     box-shadow: 0px 8px 2px 0px black;
+}
+.cards .item3{
+    background-image: url(medias/19b274d1f2cf1c2fc90a111c1093eb94.jpg);
+    background-size: cover;
+    opacity:0.8 ;
+    width: 50px;
+    border-radius: 20px;
+    height: 280px;
+    flex: 0 0 40%;
+    scroll-snap-align:start;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    color: black;
+}
+.item3:hover{
+    transform: scale(1.08);
+    transition: all 0.9s;
+    scroll-behavior: smooth;
+    box-shadow: 0px 8px 2px 0px black;
+}
+.cards .item4{
+    background-image: url(medias/pariiii.jpg);
+    background-size: cover;
+    opacity:0.8 ;
+    width: 50px;
+    border-radius: 20px;
+    height: 280px;
+    flex: 0 0 40%;
+    scroll-snap-align:start;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    color: black;
+}
+.item4:hover{
+    transform: scale(1.08);
+    transition: all 0.9s;
+    scroll-behavior: smooth;
+    box-shadow: 0px 8px 2px 0px black;
+}
+.cards .item5{
+    background-image: url(medias/b2274d6806f0425106e9170e32847c3c.jpg);
+    background-size: cover;
+    opacity:0.8 ;
+    width: 50px;
+    border-radius: 20px;
+    height: 280px;
+   flex: 0 0 40%;
+    scroll-snap-align:start;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    color: black;
+}
+.item5:hover{
+    transform: scale(1.08);
+    transition: all 0.9s;
+    scroll-behavior: smooth;
+    box-shadow: 0px 8px 2px 0px black;
+}
+.cards .item6{
+    background-image: url(medias/19b274d1f2cf1c2fc90a111c1093eb94.jpg);
+    background-size: cover;
+    opacity:0.8 ;
+    width: 50px;
+    border-radius: 20px;
+    height: 280px;
+    flex: 0 0 40%;
+    scroll-snap-align:start;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    color: black;
+}
+.item6:hover{
+    transform: scale(1.08);
+    transition: all 0.9s;
+    scroll-behavior: smooth;
+    box-shadow: 0px 8px 2px 0px black;
+}
+.galerie{
+ overflow-x: scroll;
+ scroll-snap-type:x mandatory;   
+ display: flex;
+ justify-content: center;
+ width: 510px;
+ height: 500px;
+ }
+.galerie::-webkit-scrollbar {
+display: none;
+}
+.cards{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    margin-left: 40px;
+    gap: 20px;
+}
+.sous{
+    margin-bottom: -200px;
+    display: flex;
+    gap: 450px;
+}
+.valise{
+    gap: 110px;
+    width: 320px;
+    height: 290px;
+    margin-top: 50px;
+     margin-right: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 20px 3px black;
+
+}
+.logo{
+    border-radius: 60px;
+}
+
+/* RESPONSIVITE */
+@media screen and (max-width: 600px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .galerie{
+        display: flex;
+        flex-direction: column;
+    }
+    .sous{
+        display: flex;
+        flex-direction: column;
+    }
+    .valise{
+        display: flex;
+        flex-direction: column;
+    }
+}

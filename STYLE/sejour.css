@@ -1,0 +1,228 @@
+header{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    padding: 10px;
+    transition: all 0.5s;
+    margin-bottom: 10px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    border-color: transparent;
+    box-shadow: 0px 0px 10px 0px rgb(255, 255, 255);
+}
+
+
+ .header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 80px;
+    
+}
+
+li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 30px;
+    font-weight: bold;    
+}
+
+li a:hover{
+    text-decoration: underline white;
+}
+
+body{
+    background-color: rgb(7, 20, 43);
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+                                      /* Fin du header */
+h2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.corps{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;;
+    padding: 0;
+    background-image: url(medias/backgrundSejourDevoir.jpg) ;
+    box-shadow: 0px 0px 20px 15px black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}        
+  
+.photoText img{
+width: 500px;
+height: 590px;
+border-radius: 100px;
+box-shadow: 0px 0px 10px 10px black;
+margin-left: 10px;
+margin-top: 5px;
+}   
+
+.text{
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(241, 248, 255 ,0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 75px;
+    margin: 0;
+    width: 50%;
+    color: rgb(7, 20, 43);
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: montserrat;
+    margin-top: 5px;
+    margin-left: 40px;
+    border-color: rgb(2, 15, 87);
+    box-shadow: 0px 0px 20px 5px black;
+}   
+
+                                        /* Fin du corps */
+
+strong{
+    background-clip: text;
+    background-color: rgb(0, 0, 0);
+    color: transparent;
+}
+
+.gallerie ul{
+    margin-right:   35px;
+}
+
+.gallerie li{
+    margin-top: 60px;
+    padding: 20px;
+    list-style: none;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.senegal{
+    background-image: url(medias/draSENEGAL.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.6s;
+
+}
+
+.senegal:hover{
+        transform: scale(1.02);
+        box-shadow: 0px 0px 5px 2px rgb(255, 255, 255);
+}
+
+.egypt{
+     background-image: url(medias/DRAEGYPT.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    color: rgb(7, 20, 43);
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.6s;
+}
+
+.egypt:hover{
+        transform: scale(1.02);
+        box-shadow: 0px 0px 5px 2px rgb(255, 255, 255);
+}
+
+.saoudite{
+     background-image: url(medias/DrapeauArabie.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.6s;
+}
+
+.saoudite:hover{
+        transform: scale(1.02);
+        box-shadow:  0px 0px 5px 2px rgb(255, 255, 255);
+}
+
+.maldives{
+     background-image: url(medias/DrapeauMaldive.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.6s;
+
+
+}
+
+.maldives:hover{
+        transform: scale(1.02);
+        box-shadow: 0px 0px 5px 2px rgb(255, 255, 255);
+}
+
+.france{
+     background-image: url(medias/DrapeauFrance.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.6s;
+}
+
+.france:hover{
+        transform: scale(1.02);
+        box-shadow:  0px 0px 5px 2px rgb(255, 255, 255);
+}
+
+button{
+    background-clip: text;
+    background-color: rgb(0, 0, 0);
+    backdrop-filter: blur(10px);
+    width: 500px;
+    height: 100px;
+    margin-top: 25px;
+    border-color: black;
+    border-top-color: black;
+    border-radius: 50px;
+    transition: all 0.6s;
+}
+.saoudite a button{
+    color: rgb(255, 255, 255);
+
+}
+button:hover{
+        transform: scale(1.02);
+        box-shadow: 0px 0px 10px 1pxrgb(0, 0, 0);
+}
+
+ a button{
+    color: black;
+    font-weight: bolder;
+    font-family: montserrat;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/* RESPONSIVE */
